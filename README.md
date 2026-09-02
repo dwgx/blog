@@ -32,10 +32,8 @@ DWGX 个人站点的内容源仓库,只存博客文章、草稿和元数据,不�
 
 ```
 .
-├── posts/            # Markdown 文章 (每篇一个文件)
-│   ├── 2026-04-14-dev-history.md
-│   └── 2026-06-29-june-devlog.md
-├── index.txt         # 文章文件名列表
+├── posts/            # Markdown posts (one file each)
+├── index.txt         # post filename list
 ├── README.md
 ├── SECURITY.md
 ├── LICENSE           # All rights reserved
@@ -93,9 +91,9 @@ visibility: public  # public | unlisted
 
 ## Status / 状态
 
-Personal blog content repo, actively updated. Currently contains dev-log style posts.
+Personal blog content repo. The Pages site falls back to blog.dwgx.top when `posts/` is empty.
 
-个人博客内容仓库,持续更新中。当前包含开发日志类文章。
+个人博客内容仓库。`posts/` 为空时，Pages 站点回退到 blog.dwgx.top。
 
 ## License / 许可证
 
